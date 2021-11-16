@@ -12,7 +12,6 @@ app.get('/', (req, res) => {
 });
 
 app.listen(port);
-
 const Discord = require("discord.js");
 const client = new Discord.Client();
 require("dotenv").config();
